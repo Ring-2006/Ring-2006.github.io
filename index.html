@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#007bff"> <meta name="description" content="Portfolio of Elijah Oduor, Computer Science student specializing in software development with Java, MySQL, HTML, CSS, and JavaScript.">
+    <meta name="keywords" content="Elijah Oduor, portfolio, Java developer, web developer, Kirinyaga University">
+
+    <meta property="og:title" content="Elijah Oduor | Portfolio">
+    <meta property="og:description" content="Computer Science student specializing in Java and Web Development.">
+    <meta property="og:type" content="website">
+
+    <title>Elijah Oduor | Software Developer</title>
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Elijah Oduor",
+        "jobTitle": "Software Developer",
+        "alumniOf": "Kirinyaga University",
+        "sameAs": [
+            "https://www.linkedin.com/in/elijah-oduor-9633033a6/",
+            "https://github.com/Ring-2006"
+        ]
+    }
+    </script>
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <span class="logo">&lt;Elijah.dev /&gt;</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section id="about" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Elijah Oduor</span></h1>
+                <p class="tagline">
+                    Software Engineer | Java Developer | Problem Solver
+                </p>
+                <p class="bio">
+                    A second-year Computer Science student at Kirinyaga University. I build robust backend systems with Java and MySQL, and responsive frontends with modern HTML, CSS, and JavaScript. I am passionate about Object-Oriented design and continuous learning.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View Projects <i class="fas fa-arrow-down"></i></a>
+                    <a href="Elijah_Oduor_CV.pdf" class="btn-outline" download>Download CV <i class="fas fa-file-download"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-container">
+            <h2>Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code fa-2x highlight"></i>
+                    <h3>Programming</h3>
+                    <p>Java, C++, C, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code fa-2x highlight"></i>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, Responsive UI</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database fa-2x highlight"></i>
+                    <h3>Database</h3>
+                    <p>MySQL, Relational Design</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools fa-2x highlight"></i>
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <h3>Student Record Management</h3>
+                    <p>A robust console-based application utilizing Object-Oriented principles for efficient student data administration, featuring complete CRUD operations.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ring-2006/student-record-system" target="_blank" rel="noopener noreferrer" class="btn-small"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Developer Portfolio</h3>
+                    <p>A fully responsive, accessible personal portfolio website built from the ground up without frameworks to demonstrate mastery of core web technologies.</p>
+                    <div class="tech-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ring-2006" target="_blank" rel="noopener noreferrer" class="btn-small"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section-container">
+            <h2>Let's Connect</h2>
+            <p>Currently seeking industrial attachment opportunities. Feel free to reach out!</p>
+            
+            <form action="https://formspree.io/f/YOUR_ENDPOINT_HERE" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Hello Elijah, I'd like to talk about an attachment opportunity..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+      <ul class="social-links">
+    <li>
+        <a href="https://www.linkedin.com/in/elijah-oduor-9633033a6/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+    </li>
+    
+    <li>
+        <a href="https://github.com/Ring-2006" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+    </li>
+
+    <li>
+        <a href="mailto:elijahoduor036@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope fa-lg"></i>
+        </a>
+    </li>
+</ul>
+        <p class="copyright">
+            &copy; 2026 Elijah Oduor. Built with <i class="fas fa-heart" style="color: red;"></i> & Code.
+        </p>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const icon = themeToggle.querySelector('i');
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if(document.body.classList.contains('dark-mode')){
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            }
+        });
+    </script>
+</body>
+</html>
